@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    align-items:center;
+    display: flex;
+    height: 100vh;
+    justify-content:center;
+    width: 100%;
+}
+
+main{
+    align-items:center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.116);
+    border-radius: 5%;
+    display: flex;
+}
+
+p{
+    font-size: 18px
+}
+
+div.resultado, div.sumario{ 
+    align-items: center;
+    border-radius: 5%;
+    height: 550px;
+    width: 400px;
+    padding: 5% 5%;
+}
+
+
+/* INICIO Configuração *RESULTADO* */
+.resultado{
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+.resultado h2,p{
+    color: hsla(0, 0%, 100%, 0.644);
+}
+
+.resultado h1{
+    margin-top: 30px;
+}
+
+.descricao{
+    margin-top: 5%;
+}
+
+.numero-resultado{
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0)
+    );
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    margin: 15% auto 5% auto;
+    padding-top:50px;
+}
+
+.numero-resultado h3{
+    font-size: 60px;
+}
+/* FIM Configuração *RESULTADO* */
+
+
+/* INICIO Configuração *SUMARIO* */
+
+.sumario h2{
+    margin-bottom: 10%;
+    color: hsl(224, 30%, 27%);
+}
+
+.sumario span{
+    font-weight: bolder;
+    color: hsl(224, 30%, 27%);
+}
+
+.reaction{
+    justify-content: space-between;
+    background-color: hsla(0, 98%, 48%, 0.1);
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 5%;
+    padding: 15px;
+}
+
+.reaction p{
+    color: hsl(0, 100%, 50%);
+    margin-right:45%;
+}
+
+.memory{
+    justify-content: space-between;
+    background-color:hsl(39, 100%, 56%, 0.1);
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 5%;
+    padding: 15px;
+}
+
+.memory p{
+    color: hsl(39, 100%, 56%);
+    margin-right:40%;
+}
+
+.verbal{
+    justify-content: space-between;
+    background-color: hsl(166, 100%, 37%, 0.1);
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 5%;
+    padding: 15px;
+}
+
+.verbal p{
+    color: hsl(166, 100%, 37%);
+    margin-right:46%;
+}
+
+.visual{
+    justify-content: space-between;
+    background-color: hsl(234, 85%, 45%, 0.1);
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 5%;
+    padding: 15px;
+}
+
+.visual p{
+    color: hsl(234, 85%, 45%);
+    margin-right:48%;
+}
+
+/* icons */
+
+button{
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    margin: 15% auto ;
+    padding: 15px;
+    width: 300px;
+
+    &&:hover{
+        background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    }
+
+}
+
+
+/* FIM Configuração *SUMARIO* */
+
+
+@media only screen and (max-width:600px) {
+
+    body{
+        align-items:baseline;
+    }
+
+    main{
+        align-items:center;
+        display:block;
+        box-shadow: none;
+    }
+    div.resultado{
+        border-radius: 0 0 10% 10%;
+        width:100%;
+        height: 380px;
+        margin: 0px;
+    }
+
+    div.sumario{
+        height: 100%;
+        width:100%;
+        padding: 10px 5%;
+        margin-top: 5%;
+    }
+
+    .numero-resultado{
+        height: 150px;
+        width: 150px;
+        padding-top:30px;
+    }
+
+    .numero-resultado h3{
+        font-size:50px;
+    }
+
+    button{
+        margin: 5% auto;
+    }
+}
