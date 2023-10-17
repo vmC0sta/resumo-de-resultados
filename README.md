@@ -30,7 +30,8 @@ Users should be able to:
 
 ### Screenshot
 
-![![Alt text](image.png)](./screenshot.jpg)
+!(![image](https://github.com/vmC0sta/resumo-de-resultados/assets/116650361/cb973722-eca9-40f1-b4aa-db3b19c93f2f)
+)](./screenshot.jpg)
 
 ### Links
 
