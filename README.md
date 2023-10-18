@@ -28,9 +28,12 @@ Users should be able to:
 
 ### 🖼️ Screenshot
 
-![image](!![image](https://github.com/vmC0sta/resumo-de-resultados/assets/116650361/f60a4cd9-8452-4c0c-b052-e5db924dc4dd)
-)
-![image](![image](https://github.com/vmC0sta/resumo-de-resultados/assets/116650361/92ce754d-8269-4743-b865-66d1af2551e0))
+(![image](https://github.com/vmC0sta/resumo-de-resultados/assets/116650361/92ce754d-8269-4743-b865-66d1af2551e0)
+)](./screenshot.jpg)
+
+(![image](https://github.com/vmC0sta/resumo-de-resultados/assets/116650361/f60a4cd9-8452-4c0c-b052-e5db924dc4dd)
+)](./screenshot.jpg)
+
 
 ### 🔗 Links
 
