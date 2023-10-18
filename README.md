@@ -28,12 +28,14 @@ Users should be able to:
 
 ### 🖼️ Screenshot
 
-![image](https://github.com/vmC0sta/resumo-de-resultados/assets/116650361/cb973722-eca9-40f1-b4aa-db3b19c93f2f)
+![image](!![image](https://github.com/vmC0sta/resumo-de-resultados/assets/116650361/f60a4cd9-8452-4c0c-b052-e5db924dc4dd)
+)
+![image](![image](https://github.com/vmC0sta/resumo-de-resultados/assets/116650361/92ce754d-8269-4743-b865-66d1af2551e0))
 
 ### 🔗 Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://vmc0sta.github.io/resumo-de-resultados/]([https://your-live-site-url.com](https://vmc0sta.github.io/resumo-de-resultados/))
 
 ## 🛠️ My process
 
